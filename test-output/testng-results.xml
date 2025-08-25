@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are + 8]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect user ID or password]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect user ID or password]]>
+    </line>
+    <line>
+      <![CDATA[No os rows are 7]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000201 Customer-00000000201]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000202 Customer-00000000202]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000203 Customer-00000000203]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000204 Customer-00000000204]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000205 Customer-00000000205]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000206 Customer-00000000206]]>
+    </line>
+    <line>
+      <![CDATA[Customer Add SuccessCustomer-00000000207 Customer-00000000207]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-10T18:05:58 IST" name="DataDriven" finished-at="2025-05-10T18:10:06 IST" duration-ms="248359">
+    <groups>
+    </groups>
+    <test started-at="2025-05-10T18:05:58 IST" name="LoginTest" finished-at="2025-05-10T18:08:06 IST" duration-ms="127822">
+      <class name="driverFactory.DriverScript">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:driverFactory.DriverScript@4c402120]" started-at="2025-05-10T18:05:58 IST" name="SetUp" finished-at="2025-05-10T18:06:01 IST" duration-ms="3638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="starttest()[pri:0, instance:driverFactory.DriverScript@4c402120]" started-at="2025-05-10T18:06:01 IST" name="starttest" finished-at="2025-05-10T18:08:05 IST" duration-ms="123634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are + 8]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect user ID or password]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect user ID or password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.DriverScript@4c402120]" started-at="2025-05-10T18:08:05 IST" name="tearDown" finished-at="2025-05-10T18:08:06 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.DriverScript -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-05-10T18:08:06 IST" name="Customer" finished-at="2025-05-10T18:10:06 IST" duration-ms="120446">
+      <class name="driverFactory.TestScript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.TestScript@45c7e403]" started-at="2025-05-10T18:08:06 IST" name="setUp" finished-at="2025-05-10T18:08:10 IST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startvoid()[pri:0, instance:driverFactory.TestScript@45c7e403]" started-at="2025-05-10T18:08:10 IST" name="startvoid" finished-at="2025-05-10T18:10:05 IST" duration-ms="114790" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No os rows are 7]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000201 Customer-00000000201]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000202 Customer-00000000202]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000203 Customer-00000000203]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000204 Customer-00000000204]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000205 Customer-00000000205]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000206 Customer-00000000206]]>
+            </line>
+            <line>
+              <![CDATA[Customer Add SuccessCustomer-00000000207 Customer-00000000207]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startvoid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.TestScript@45c7e403]" started-at="2025-05-10T18:10:05 IST" name="tearDown" finished-at="2025-05-10T18:10:06 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.TestScript -->
+    </test> <!-- Customer -->
+  </suite> <!-- DataDriven -->
+</testng-results>
